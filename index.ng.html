@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mohsin Niazi</title>
+    <!-- Roboto Font -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,700,500italic,500,700italic,900,900italic'
+          rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="styles/theme-css/normalize.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/theme-css/anim.css">
+    <link rel="stylesheet" href="styles/theme-css/main.css">
+    <link rel="stylesheet" href="styles/main.styles.css">
+    <link rel="stylesheet" href="styles/portfolio.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
+    <script src="app.ng.js"></script>
+    <script src="lib/scripts/plugins.js"></script>
+</head>
+
+<body ng-app="website">
+<!--[if lt IE 7]> <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a
+        href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p> <![endif]-->
+
+<!-- Menu -->
+<nav class="app-menu">
+    <button id="close">
+        <span class="close-lines"></span>
+    </button>
+    <ul class="off-nav">
+        <li>
+            <a href="mailto:mohsin_niazi@outlook.com" target="_blank">Email</a>
+        </li>
+        <li>
+            <a href="https://drive.google.com/file/d/0B1wTquiyw9kiSjdEZXhxT2x2R28/view?usp=sharing"
+               target="_blank">CV</a>
+        </li>
+        <li>
+            <a href="https://github.com/mmniazi" target="_blank">Github</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/mmniazi" target="_blank">LinkedIn</a>
+        </li>
+        <li>
+            <a href="https://www.upwork.com/freelancers/~011187ca78bcd97e7c" target="_blank">Freelancing<br>
+                Profile</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- Overlay -->
+<div id="overlay" class="content-overlay ease"></div>
+
+<!-- Content -->
+<div id="content" class="content ease">
+    <div class="container-fluid">
+
+        <!-- Section 1 -->
+        <div class="row" id="section1">
+            <header class="floating">
+                <button id="menu-icon" class="menu-toggle outline-btn" type="button" role="button">
+                    Profiles
+                </button>
+            </header>
+            <div class="col-xs-2 col-md-4"></div>
+            <div class="col-xs-8 col-md-4 full-height v-center" id="intro">
+                <img src="public/main-text.png" class="main-logo">
+                <div class="scroll-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Scroll
+                </div>
+            </div>
+            <div class="col-xs-2 col-md-4"></div>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="row" id="section2">
+            <div class="col-lg-12">
+                <div class="row v-center shadow" id="header">
+                    <div class="col-md-6 h-center">
+                        <h1 class="f-white">Web Development</h1>
+                    </div>
+                    <div class="col-md-6 h-center">
+                        <p class="f-white" id="sub-heading">
+                            <i>Want to build on latest web technologies?</i>
+                        </p>
+                    </div>
+                </div>
+                <div class="row" id="content">
+                    <div class="col-md-7 shadow-img" id="front">
+                        <h2>Front-End Skills</h2>
+                        <p>
+                            AngularJs, Bootstrap, ThreeJs, Greensock
+                            <br>
+                            Typescript, Less, Jquery, Gulp
+                        </p>
+                        <div>
+                            <img src="public/angular.png">
+                            <img src="public/bootstrap.png">
+                            <img src="public/typescript.png" class="wide-img">
+                            <img src="public/less.png" class="wide-img">
+                        </div>
+                    </div>
+                    <div class="col-md-5 f-white" id="back">
+                        <h2>Back-End Skills</h2>
+                        <p>
+                            Java/Spring, NodeJs/Meteor.js &amp; Express.js, MySql, MongoDb
+                        </p>
+                        <div>
+                            <img src="public/spring.png">
+                            <img src="public/meteor.png">
+                            <img src="public/nodejs.png">
+                            <img src="public/mongo.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3 -->
+        <div class="row shadow" id="section3">
+            <div class="col-md-6" id="heading">
+                <h1>Mobile Development</h1>
+                <p>Looking for an Ionic developer ...</p>
+                <p>Or need help with Native Android Development?</p>
+            </div>
+            <div class="col-md-6">
+                <img src="public/mobile.png" id="mob-background">
+            </div>
+        </div>
+
+        <!-- Section 4 -->
+        <section class="row f-white" id="portfolio" id="section4">
+            <div class="col-lg-12 text-center">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="col-lg-12">
+                <div class="col-md-4">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-card">
+                            <div>
+                                <h1 class="port-heading">rSim</h1>
+                                <p>
+                                    Desktop Application, Web and Mobile App for rotation simulation
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-card">
+                            <div>
+                                <h1 class="port-heading">
+                                    Website Future Comp.
+                                </h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-card">
+                            <div>
+                                <h1 class="port-heading">
+                                    Robocup SSL
+                                </h1>
+                                <p>
+                                    AI for soccer playing robots
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-card">
+                            <div>
+                                <h1 class="port-heading">
+                                    Dmanager
+                                </h1>
+                                <p>
+                                    High speed file downloader
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-card">
+                            <div>
+                                <h1 class="port-heading">
+                                    Encrypted Messaging App
+                                </h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-card">
+                            <div>
+                                <h1 class="port-heading">
+                                    FTPS
+                                </h1>
+                                <p>
+                                    FTP & FTPS server and client
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5 -->
+        <div class="row shadow v-center" id="section5">
+            <div class="col-xs-12 col-sm-6" id="email-button">
+                <a href="mailto:muhammad.mohsin1994@gmail.com" target="_blank" class="outline-btn">
+                    muhammad.mohsin1994@gmail.com
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6" id="copyright-text">
+                All rights reserved. Logos used here are property of their respective owners.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body h-center">
+                        <h2>rSim Desktop Application, Web and Mobile App</h2>
+                        <hr class="star-primary">
+                        <p>
+                            Created applications for all major platforms that simulates rotational motion of body
+                            for given initial conditions. Applications show 3d view of rotating body using webgl on
+                            web/mobile and native graphics on desktop.
+                        </p>
+                        <img src="public/portfolio/1-desktop.png" class="img-responsive img-centered">
+                        <img src="public/portfolio/1-web.png" class="img-responsive img-centered">
+                        <img src="public/portfolio/1-mobile.png" class="img-responsive img-centered">
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong>Mechanarium</strong>
+                            </li>
+                            <li>Date:
+                                <strong>September 2015</strong>
+                            </li>
+                            <li>Service:
+                                <strong>Desktop, Web and Mobile Development</strong>
+                            </li>
+                            <li>Skills:
+                                <strong>Javafx, Ionic, AngularJs, ThreeJs, Webgl</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body h-center">
+                        <h2>AI for soccer playing robots</h2>
+                        <hr class="star-primary">
+                        <p>
+                            Implemented path planning, ball tracking and goal keeping modules using RRT(Rapidly
+                            growing random trees) algorithm for Robocup SSL 2015. Also improved RRT performance by
+                            10 times using RRT* and different post and pre-processing techniques.
+                        </p>
+                        <iframe src="https://player.vimeo.com/video/145912431?title=0&byline=0&portrait=0"
+                                width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                                allowfullscreen></iframe>
+                        <ul class="list-inline item-details">
+                            <li>Date:
+                                <strong>March 2015</strong>
+                            </li>
+                            <li>Service:
+                                <strong>Implementing AI algorithms</strong>
+                            </li>
+                            <li>Skills:
+                                <strong>C#, RRT*, AI, Algorithms, Optimization</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body h-center">
+                        <h2>Future Composites Website</h2>
+                        <hr class="star-primary">
+                        <p>
+                            Developed website for a small buissness representing their brand and services.
+                            <br>
+                            <a href="http://www.futurecomposite.com/" target="_blank">www.futurecomposite.com</a>
+                        </p>
+                        <img src="public/portfolio/3.png"
+                             class="img-responsive img-centered">
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong>Future Composites</strong>
+                            </li>
+                            <li>Date:
+                                <strong>October 2015</strong>
+                            </li>
+                            <li>Service:
+                                <strong>Website development</strong>
+                            </li>
+                            <li>Skills:
+                                <strong>Wordpress, Html, Css, Javascript</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body h-center">
+                        <h2>High speed file downloader</h2>
+                        <hr class="star-primary">
+                        <p>
+                            High speed file downloader with multiple streams writing to a single file.
+                        </p>
+                        <img src="public/portfolio/4-1.png"
+                             class="img-responsive img-centered">
+                        <img src="public/portfolio/4-2.png"
+                             class="img-responsive img-centered">
+                        <img src="public/portfolio/4-3.png"
+                             class="img-responsive img-centered">
+                        <ul class="list-inline item-details">
+                            <li>Date:
+                                <strong>May 2015</strong>
+                            </li>
+                            <li>Service:
+                                <strong>Desktop Application</strong>
+                            </li>
+                            <li>Skills:
+                                <strong>Java, Javafx, Appache Http Client</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body h-center">
+                        <h2>Encrypted Messaging App</h2>
+                        <hr class="star-primary">
+                        <p>
+                            Messaging app for sending encrypted message using AES encryption standard.
+                        </p>
+                        <img src="public/portfolio/5.png"
+                             class="img-responsive img-centered">
+                        <ul class="list-inline item-details">
+                            <li>Date:
+                                <strong>June 2015</strong>
+                            </li>
+                            <li>Service:
+                                <strong>Android App</strong>
+                            </li>
+                            <li>Skills:
+                                <strong>Java, Android, Encryption, AES</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body h-center">
+                        <h2>FTP & FTPS server and client</h2>
+                        <hr class="star-primary">
+                        <p>
+                            FTP & FTPS server and client using Apache Mina Javafx.
+                        </p>
+                        <img src="public/portfolio/6-1.png"
+                             class="img-responsive img-centered">
+                        <img src="public/portfolio/6-2.png"
+                             class="img-responsive img-centered">
+                        <ul class="list-inline item-details">
+                            <li>Date:
+                                <strong>August 2015</strong>
+                            </li>
+                            <li>Service:
+                                <strong>Desktop Applications</strong>
+                            </li>
+                            <li>Skills:
+                                <strong>Java, Javafx, Appache Mina, FTP, FTPS</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

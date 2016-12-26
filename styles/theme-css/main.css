@@ -218,7 +218,7 @@ p {
        top: 75px;
        width: 100%;
        padding: 30px;
-       box-sizing: border-box; 
+       box-sizing: border-box;
    }
 }
 
@@ -262,7 +262,7 @@ p {
     color: #919191;
     font-weight: 300;
     -webkit-transition: background .3s;
-    transition: background .3s;     
+    transition: background .3s;
 }
 .back-to-tutorial:hover {
     background: #919191;
@@ -331,23 +331,6 @@ button.lines-button {
 .lines:after {
     top: -5px;
 }
-button.lines-button:hover .lines{}
-button.lines-button:hover .lines:before {
-    -webkit-transform: rotate3d(0,0,1,40deg);
-    -moz-transform: rotate3d(0,0,1,40deg);
-    -o-transform: rotate3d(0,0,1,40deg);
-    transform: rotate3d(0,0,1,40deg);
-    top: 3px;
-    width: 50%;
-}
-button.lines-button:hover .lines:after {
-    -webkit-transform: rotate3d(0,0,1,-40deg);
-    -moz-transform: rotate3d(0,0,1,-40deg);
-    -o-transform: rotate3d(0,0,1,-40deg);
-    transform: rotate3d(0,0,1,-40deg);
-    top: -3px;
-    width: 50%;
-}
 .close-lines {
     display: inline-block;
     width: 65px;
@@ -366,11 +349,11 @@ button.lines-button:hover .lines:after {
     position: absolute;
     left: 0;
     content: '';
-    -webkit-transform: rotate3d(0,0,1,45deg); 
-    -moz-transform: rotate3d(0,0,1,45deg); 
-    -ms-transform: rotate3d(0,0,1,45deg); 
-    -o-transform: rotate3d(0,0,1,45deg); 
-    transform: rotate3d(0,0,1,45deg); 
+    -webkit-transform: rotate3d(0,0,1,45deg);
+    -moz-transform: rotate3d(0,0,1,45deg);
+    -ms-transform: rotate3d(0,0,1,45deg);
+    -o-transform: rotate3d(0,0,1,45deg);
+    transform: rotate3d(0,0,1,45deg);
 }
 .close-lines:before{
     display: inline-block;
@@ -381,11 +364,11 @@ button.lines-button:hover .lines:after {
     position: absolute;
     left: 0;
     content: '';
-    -webkit-transform: rotate3d(0,0,1,-45deg); 
+    -webkit-transform: rotate3d(0,0,1,-45deg);
     -moz-transform: rotate3d(0,0,1,-45deg);
     -ms-transform: rotate3d(0,0,1,-45deg);
     -o-transform: rotate3d(0,0,1,-45deg);
-    transform: rotate3d(0,0,1,-45deg); 
+    transform: rotate3d(0,0,1,-45deg);
 }
 /* ==========================================================================
    Helper classes
