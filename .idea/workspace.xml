@@ -1,39 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd2c1aa4-dfb4-4f98-848d-5014eae05619" name="Default" comment="static version">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/spring.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/website.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.ng.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.ng.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/main.styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/main.styles.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/portfolio.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/portfolio.less" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.meteor/.finished-upgraders" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.meteor/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.meteor/.id" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.meteor/platforms" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.meteor/release" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app.ng.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/index.ng.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/styles/main.styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/styles/portfolio.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/main.ng.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/portfolio-1.ng.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/portfolio-2.ng.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/portfolio-3.ng.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/portfolio-4.ng.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/portfolio-5.ng.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/portfolio-6.ng.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/lib/scripts/plugins.js" afterPath="$PROJECT_DIR$/lib/scripts/plugins.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/styles/theme-css/anim.css" afterPath="$PROJECT_DIR$/styles/theme-css/anim.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/styles/theme-css/main.css" afterPath="$PROJECT_DIR$/styles/theme-css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/styles/theme-css/normalize.css" afterPath="$PROJECT_DIR$/styles/theme-css/normalize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/main-text.png" afterPath="$PROJECT_DIR$/public/main-text.png" />
+    <list default="true" id="dd2c1aa4-dfb4-4f98-848d-5014eae05619" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.ng.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/main.styles.less" afterPath="$PROJECT_DIR$/styles/main.styles.less" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,15 +20,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.ng.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.ng.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding>
-                <marker date="1482373095450" expanded="true" signature="1681:1838" ph="..." />
-                <marker date="1482373095450" expanded="true" signature="1743:1806" ph="..." />
+                <marker date="1482712874293" expanded="true" signature="1681:1838" ph="..." />
+                <marker date="1482712874293" expanded="true" signature="1743:1806" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.styles.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/main.styles.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="250" column="56" lean-forward="false" selection-start-line="250" selection-start-column="56" selection-end-line="250" selection-end-column="56" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/styles/main.styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -101,6 +83,8 @@
         <option value="$PROJECT_DIR$/client/styles/main.styles.css" />
         <option value="$PROJECT_DIR$/client/index.ng.html" />
         <option value="$PROJECT_DIR$/index.ng.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/styles/main.styles.less" />
       </list>
     </option>
   </component>
@@ -130,9 +114,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -147,6 +129,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,8 +160,8 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.ng.html">
-    <configuration default="false" name="index.ng.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website static/website/index.ng.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website static/website/index.html">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -460,11 +444,11 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.ng.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.ng.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -485,165 +469,136 @@
       <updated>1482360422716</updated>
       <workItem from="1482360424080" duration="2044000" />
       <workItem from="1482362837800" duration="4629000" />
+      <workItem from="1482711964254" duration="916000" />
     </task>
+    <task id="LOCAL-00001" summary="static version v1">
+      <created>1482712014840</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1482712014840</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6673000" />
+    <option name="totallyTimeSpent" value="7589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6515397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.649919" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25378788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25757575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="static version v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="static version v1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.ng.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="477" column="7" lean-forward="false" selection-start-line="477" selection-start-column="7" selection-end-line="477" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1482373095450" expanded="true" signature="1681:1838" ph="..." />
-            <marker date="1482373095450" expanded="true" signature="1743:1806" ph="..." />
+            <marker date="1482712874293" expanded="true" signature="1681:1838" ph="..." />
+            <marker date="1482712874293" expanded="true" signature="1743:1806" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.json">
+    <entry file="file://$PROJECT_DIR$/styles/main.styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="36">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="477" column="7" lean-forward="false" selection-start-line="477" selection-start-column="7" selection-end-line="477" selection-end-column="7" />
+          <folding>
+            <marker date="1482712874293" expanded="true" signature="1681:1838" ph="..." />
+            <marker date="1482712874293" expanded="true" signature="1743:1806" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.json" />
     <entry file="file://$PROJECT_DIR$/app.ng.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/portfolio-6.ng.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/portfolio-1.ng.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="42" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/portfolio-2.ng.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/portfolio-3.ng.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/portfolio-4.ng.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/portfolio-5.ng.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/main.ng.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1407">
-          <caret line="184" column="5" lean-forward="false" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/portfolio.ng.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/main.styles.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="78" column="8" lean-forward="false" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/portfolio-6.ng.html" />
+    <entry file="file://$PROJECT_DIR$/client/views/portfolio-1.ng.html" />
+    <entry file="file://$PROJECT_DIR$/client/views/portfolio-2.ng.html" />
+    <entry file="file://$PROJECT_DIR$/client/views/portfolio-3.ng.html" />
+    <entry file="file://$PROJECT_DIR$/client/views/portfolio-4.ng.html" />
+    <entry file="file://$PROJECT_DIR$/client/views/portfolio-5.ng.html" />
+    <entry file="file://$PROJECT_DIR$/client/views/main.ng.html" />
+    <entry file="file://$PROJECT_DIR$/client/views/portfolio.ng.html" />
     <entry file="file://$PROJECT_DIR$/lib/scripts/plugins.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mup.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mup.json" />
+    <entry file="file://$PROJECT_DIR$/settings.json" />
     <entry file="file://$PROJECT_DIR$/styles/portfolio.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1116">
@@ -656,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="373" column="6" lean-forward="false" selection-start-line="373" selection-start-column="6" selection-end-line="373" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,26 +618,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/main.styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.ng.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="18">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
-            <marker date="1482373095450" expanded="true" signature="1681:1838" ph="..." />
-            <marker date="1482373095450" expanded="true" signature="1743:1806" ph="..." />
+            <marker date="1482712874293" expanded="true" signature="1681:1838" ph="..." />
+            <marker date="1482712874293" expanded="true" signature="1743:1806" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/main.styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="250" column="56" lean-forward="false" selection-start-line="250" selection-start-column="56" selection-end-line="250" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
